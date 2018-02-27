@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.example.kai.c175.Main2Activity"
+    tools:layout_editor_absoluteY="73dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="87dp"
+        android:layout_height="72dp"
+        android:text="COOLANT PUMP UOTLET"
+        android:textColor="#ffc400"
+        android:gravity="center"
+        tools:layout_editor_absoluteY="49dp"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="111dp"
+        android:layout_height="36dp"
+        android:text="ENGINE COLLANT TEMP."
+        android:gravity="center"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteY="72dp"
+        tools:layout_editor_absoluteX="133dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="94dp"
+        android:layout_height="38dp"
+        android:text="AMBIENT AIR TEMP."
+        android:gravity="center"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteY="202dp"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="122dp"
+        android:layout_height="39dp"
+        android:text="INTAKE MANIFOLD AIR TEMP. #1"
+        android:gravity="center"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteY="202dp"
+        tools:layout_editor_absoluteX="133dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="111dp"
+        android:layout_height="36dp"
+        android:text="ENGINE OIL TEMP."
+        android:gravity="center"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteY="72dp"
+        tools:layout_editor_absoluteX="265dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="102dp"
+        android:layout_height="42dp"
+        android:text="FUEL TEMP."
+        android:gravity="center"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteY="72dp"
+        tools:layout_editor_absoluteX="382dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        android:max="10"
+        android:progress="3"
+        android:rotation="270"
+        tools:layout_editor_absoluteY="146dp"
+        tools:layout_editor_absoluteX="173dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        android:max="10"
+        android:progress="3"
+        android:rotation="270"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        android:max="10"
+        android:progress="3"
+        android:rotation="270"
+        tools:layout_editor_absoluteX="302dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        android:max="10"
+        android:progress="3"
+        android:rotation="270"
+        tools:layout_editor_absoluteX="411dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        android:max="10"
+        android:progress="3"
+        android:rotation="270"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        android:max="10"
+        android:progress="3"
+        android:rotation="270"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEMPERATURES"
+        android:textColor="#ffc400"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="113dp"
+        android:layout_height="50dp"
+        android:text="INTAKE MANIFOLD AIR TEMP. #1"
+        android:gravity="center"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progress="3"
+        android:rotation="270"
+        android:background="#212121"
+        tools:layout_editor_absoluteX="302dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progress="3"
+        android:background="#212121"
+        android:rotation="270"
+        tools:layout_editor_absoluteX="418dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="91dp"
+        android:layout_height="48dp"
+        android:text="LEFT EXHAUST TEMP."
+        android:gravity="center"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteX="393dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="88dp"
+        android:layout_height="50dp"
+        android:text="FUEL RAIL TEMP."
+        android:gravity="center"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteX="488dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="102dp"
+        android:layout_height="51dp"
+        android:text="RIGHT EXHAUST TEMP."
+        android:gravity="center"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteX="488dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        android:rotation="270"
+        android:max="10"
+        android:progress="3"
+        tools:layout_editor_absoluteX="511dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        android:rotation="270"
+        android:max="10"
+        android:progress="3"
+        tools:layout_editor_absoluteX="518dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+
+</android.support.constraint.ConstraintLayout>

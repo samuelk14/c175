@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.example.kai.c175.Main2Activity"
+    tools:layout_editor_absoluteY="73dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SWITCHES"
+        android:textColor="#ffc400"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="OIL FILTER"
+        android:textColor="#ffc400"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="112dp"
+        android:layout_height="72dp"
+        android:text="COOLANT LEVEL"
+        android:textColor="#ffc400"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="161dp"
+        android:layout_height="74dp"
+        android:text="FUEL WATER SEPARATOR LEVEL"
+        android:textColor="#ffc400"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <Switch
+        android:id="@+id/switch6"
+        android:layout_width="116dp"
+        android:layout_height="101dp"
+        android:text="FUEL PRIMMING PUMP SWITCH"
+        android:textColor="#ffc400"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="460dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <Switch
+        android:id="@+id/switch7"
+        android:layout_width="124dp"
+        android:layout_height="62dp"
+        android:text="THROTTEL BACKUP"
+        android:textColor="#ffc400"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Switch
+        android:id="@+id/switch8"
+        android:layout_width="129dp"
+        android:layout_height="74dp"
+        android:text="E-STOP USER SHUTDOWN"
+        android:textColor="#ffc400"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Switch
+        android:id="@+id/switch9"
+        android:layout_width="125dp"
+        android:layout_height="73dp"
+        android:text="SHUTDOWN SWITCH"
+        android:textColor="#ffc400"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Switch
+        android:id="@+id/switch10"
+        android:layout_width="117dp"
+        android:layout_height="49dp"
+        android:text="KEY SWITCH"
+        android:textColor="#ffc400"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="459dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+
+</android.support.constraint.ConstraintLayout>

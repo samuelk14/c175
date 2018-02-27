@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:screenOrientation="landscape"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.example.kai.c175.MainActivity"
+    tools:layout_editor_absoluteY="73dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:text="GENERAL OVERVIEW"
+        android:background="@drawable/boton_redondo"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="27dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:text="PRESSURES"
+        android:background="@drawable/boton_redondo"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="411dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:background="@drawable/boton_redondo"
+        android:text="ENGINE TURBO"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteY="166dp"
+        tools:layout_editor_absoluteX="27dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:text="TEMPERATURES"
+        android:background="@drawable/boton_redondo"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteY="166dp"
+        tools:layout_editor_absoluteX="221dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:text="SWITCHES"
+        android:background="@drawable/boton_redondo"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteY="166dp"
+        app:layout_constraintLeft_toRightOf="@+id/button4"
+        android:layout_marginLeft="40dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/cat"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</android.support.constraint.ConstraintLayout>

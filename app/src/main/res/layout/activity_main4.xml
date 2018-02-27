@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.example.kai.c175.Main2Activity"
+    tools:layout_editor_absoluteY="73dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="91dp"
+        android:layout_height="41dp"
+        android:text="TURBO CHARGER #1"
+        android:textColor="#ffc400"
+        android:gravity="center"
+        tools:layout_editor_absoluteY="86dp"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="105dp"
+        android:layout_height="39dp"
+        android:text="TURBO CHARGER #2"
+        android:gravity="center"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteY="90dp"
+        tools:layout_editor_absoluteX="166dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:text="TURBO CHARGER #3"
+        android:gravity="center"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteY="202dp"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="102dp"
+        android:layout_height="42dp"
+        android:text="TUEBO CHARGER #4"
+        android:gravity="center"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteY="202dp"
+        tools:layout_editor_absoluteX="166dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="111dp"
+        android:layout_height="36dp"
+        android:text="ATMOSPHERIC PRESSURE"
+        android:gravity="center"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteY="91dp"
+        tools:layout_editor_absoluteX="334dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="108dp"
+        android:layout_height="67dp"
+        android:text="INTAKE MANIFOLD PRESSURE #1"
+        android:gravity="center"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteY="86dp"
+        tools:layout_editor_absoluteX="473dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        android:max="10"
+        android:progress="3"
+        android:rotation="270"
+        tools:layout_editor_absoluteY="146dp"
+        tools:layout_editor_absoluteX="197dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        android:max="10"
+        android:progress="3"
+        android:rotation="270"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        android:max="10"
+        android:progress="3"
+        android:rotation="270"
+        tools:layout_editor_absoluteX="366dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        android:max="10"
+        android:progress="3"
+        android:rotation="270"
+        tools:layout_editor_absoluteX="506dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        android:max="10"
+        android:progress="3"
+        android:rotation="270"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        android:max="10"
+        android:progress="3"
+        android:rotation="270"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="113dp"
+        android:layout_height="50dp"
+        android:text="INTAKE MANIFOLD PRESSURE #2"
+        android:gravity="center"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteX="334dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progress="3"
+        android:rotation="270"
+        android:background="#212121"
+        tools:layout_editor_absoluteX="366dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="131dp"
+        android:layout_height="29dp"
+        android:text="ENGINE TURBO"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="208dp"
+        android:layout_height="46dp"
+        android:text="COMPRESSOR INLET PRESSURES"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="#ffc400"
+        tools:layout_editor_absoluteX="356dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+
+</android.support.constraint.ConstraintLayout>
+
